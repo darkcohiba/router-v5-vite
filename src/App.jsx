@@ -9,8 +9,8 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
-      <Header />
       <BrowserRouter>
+      <Header />
         <Switch>
           <Route exact path="/"> 
             <Home />            
